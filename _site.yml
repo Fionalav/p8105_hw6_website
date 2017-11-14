@@ -1,0 +1,10 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Instacart Project"
+  subtitle: "With Plotly and Shiny Graphics"
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/Fionalav/p8105_hw6_yz3306
+output:
+  html_document

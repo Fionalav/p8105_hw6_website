@@ -1,0 +1,26 @@
+---
+title: HW6 Website
+---
+
+
+
+In HW6, Analysis on Instacart Dataset was conducted.
+
+Collaborators for this project:
+
+Xiangyu Shi (UNI: xs2329 )
+Yulan Zhang (UNI: yz3306)
+##Data Description & Processing Steps
+
+
+###Problem 1
+
+A flexdashboard created using plotly is here[].
+ 
+###Problem 2
+
+A shiny-enabled dashboard created using Shiny is here[].
+
+###Note
+GitHub repo for this hw is here[].
+

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "name: \"Yay internet!\"\noutput_dir: \".\"\nnavbar:\n  title: \"Instacart Project\"\n  subtitle: \"With Plotly and Shiny Graphics\"\n  right:\n    - icon: fa-github fa-lg\n      href: https://github.com/Fionalav/p8105_hw6_yz3306\noutput:\n  html_document",
+    "created" : 1510699409078.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3193240393",
+    "id" : "317F33EE",
+    "lastKnownWriteTime" : 1510699515,
+    "last_content_update" : 1510699515787,
+    "path" : "~/Google Drive/R /8105/p8105_hw/p8105_hw6_website/_site.yml",
+    "project_path" : "_site.yml",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}
