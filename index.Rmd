@@ -16,7 +16,7 @@ Yulan Zhang (UNI: yz3306)
 
 ###Problem 1
 
-**A flexdashboard created using plotly is here[].**
+**A flexdashboard created using plotly is [here](https://fionalav.github.io/p8105_hw6_xs2329_yz3306/).**
 
 ####In this project, we are interested in the “The Instacart Online Grocery Shopping Dataset 2017” dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: deli, frozen, produce and bakery. 
 
