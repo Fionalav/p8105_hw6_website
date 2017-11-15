@@ -1,5 +1,6 @@
 ---
 title: HW6 Website
+subtitle: Analysis on Instacart Dataset
 ---
 
 
@@ -15,7 +16,17 @@ Yulan Zhang (UNI: yz3306)
 
 ###Problem 1
 
-A flexdashboard created using plotly is here[].
+**A flexdashboard created using plotly is here[].**
+
+####In this project, we are interested in the “The Instacart Online Grocery Shopping Dataset 2017” dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: deli, frozen, produce and bakery. 
+
+- In **Figure A**, we analyzed the total number of orders in each department and presented the most popular products in each department. 
+
+- In **Figure B**, we analyzed the hour of the day on which the order was placed in each department. From the box plot, we observed that the medians across the 4 departments are all within 10-15 hours during the day. 
+
+- In **Figure C**, we further analyzed the nubmer of orders placed in each department during the week. We obeserve that the number of orders for the 4 departments remain a consistant pattern regardless of the day of the week. 
+
+We will take a closer look for variables within each department using shiny. 
  
 ###Problem 2
 
