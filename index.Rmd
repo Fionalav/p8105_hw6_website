@@ -30,7 +30,7 @@ We will take a closer look for variables within each department using shiny.
  
 ###Problem 2
 
-A shiny-enabled dashboard created using Shiny is here[].
+A shiny-enabled dashboard created using Shiny is [here](https://fionalav.shinyapps.io/hw6_shiny/).
 
 ###Note
 GitHub repo for this hw is here[].
