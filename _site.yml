@@ -5,6 +5,6 @@ navbar:
   subtitle: "With Plotly and Shiny Graphics"
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/Fionalav/p8105_hw6_yz3306
+      href: https://github.com/Fionalav/p8105_hw6_website
 output:
   html_document
