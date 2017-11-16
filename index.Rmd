@@ -11,14 +11,16 @@ Collaborators for this project:
 
 Xiangyu Shi (UNI: xs2329 )
 Yulan Zhang (UNI: yz3306)
+
 ##Data Description & Processing Steps
+
+####In this project, we are interested in the “The Instacart Online Grocery Shopping Dataset 2017” dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: deli, frozen, produce and bakery. Download the data used for this project [here](http://jeffgoldsmith.com/DSI/data/instacart_train_data.csv.zip).
 
 
 ###Problem 1
 
 **A flexdashboard created using plotly is [here](https://fionalav.github.io/p8105_hw6_xs2329_yz3306/).**
 
-####In this project, we are interested in the “The Instacart Online Grocery Shopping Dataset 2017” dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: deli, frozen, produce and bakery. 
 
 - In **Figure A**, we analyzed the total number of orders in each department and presented the most popular products in each department during a week. 
 
@@ -41,5 +43,9 @@ A shiny-enabled dashboard created using Shiny is [here](https://fionalav.shinyap
 
 
 ###Note
-GitHub repo for this hw is here[].
+GitHub repo for the flexdashboard is [here](https://github.com/Fionalav/p8105_hw6_xs2329_yz3306).\
+GitHub repo for the Shiny-enabled dashboard is [here](https://github.com/Fionalav/P8105_hw6_shiny).\
+GitHub repo for the website is [here](https://github.com/Fionalav/p8105_hw6_website).\
+
+
 
