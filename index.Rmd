@@ -32,7 +32,7 @@ We will take a closer look for variables within each department using shiny.
 
 A shiny-enabled dashboard created using Shiny is [here](https://fionalav.shinyapps.io/hw6_shiny/).
 
-* In graph A, we updated the graph A in problem 1. We added the selectorInput Widget in the sidebar for `Day of week` Variable. In this case, we can visualize the most popular item from each department on each day of week, by selecting in the day of week widget. For instance, on Sunday, the most popular product in bakery department is "100% Whole Wheat Bread", while in Monday, the most popular product in Bakery department is .
+* In graph A, we updated the graph A in problem 1. We added the selectorInput Widget in the sidebar for `Day of week` Variable. In this case, we can visualize the most popular item from each department on each day of week, by selecting in the day of week widget. For instance, on Sunday, the most popular product in bakery department is "100% Whole Wheat Bread", while in Monday, the most popular product in Bakery department is "Whole Wheat Bread".
 
 * In graph B, we updated the graph B in problem 1. We added the RadioButton Widget in the sidebar for `Department` Variable. In this case, we can visualize the hour of the day the order was placed on each aisle within its own department, by selecting individual department in the sidebar widget. For instance, in Department "Produce", there are six aisles involved. We can visualize each aisle's respective distribution of ordering hour of day.
 
