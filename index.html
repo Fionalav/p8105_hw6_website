@@ -205,26 +205,33 @@ $(document).ready(function () {
 <p>Xiangyu Shi (UNI: xs2329 ) Yulan Zhang (UNI: yz3306)</p>
 <div id="data-description-processing-steps" class="section level2">
 <h2>Data Description &amp; Processing Steps</h2>
-<div id="in-this-project-we-are-interested-in-the-the-instacart-online-grocery-shopping-dataset-2017-dataset-which-contains-over-3-million-online-grocery-orders-from-more-than-200000-instacart-users.-since-this-dataset-is-quite-extensive-we-only-focus-on-order-status-in-the-following-4-departments-deli-frozen-produce-and-bakery.-download-the-data-used-for-this-project-here." class="section level4">
-<h4>In this project, we are interested in the “The Instacart Online Grocery Shopping Dataset 2017” dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: deli, frozen, produce and bakery. Download the data used for this project <a href="http://jeffgoldsmith.com/DSI/data/instacart_train_data.csv.zip">here</a>.</h4>
-</div>
+<p>In this project, we are interested in the <strong>“The Instacart Online Grocery Shopping Dataset 2017”</strong> dataset which contains over 3 million online grocery orders from more than 200,000 Instacart users. Since this dataset is quite extensive, we only focus on order status in the following 4 departments: <code>deli</code>, <code>frozen</code>, <code>produce</code> and <code>bakery</code>. Out of the 15 variables included in this dataset, we limit the variables of interest to only :</p>
+<ul>
+<li><p><code>order_dow</code> : the day of the week on which the order was placed</p></li>
+<li><p><code>order_hour_of_day</code>: the hour of the day on which the order was placed</p></li>
+<li><p><code>department</code>: the name of the department</p></li>
+<li><p><code>product_name</code>: name of the product</p></li>
+<li><p><code>aisle</code>: the name of the aislef</p></li>
+</ul>
+<p>In <strong>problem 1</strong>, figures are created using plotly for interactive graphics and presented in a flexdashboard. In <strong>problem 2</strong>, a shiny-enabled dashboard is created to elaborate on the work done in Problem 1.</p>
+<p>Download the data used for this project <a href="http://jeffgoldsmith.com/DSI/data/instacart_train_data.csv.zip">here</a>.</p>
 <div id="problem-1" class="section level3">
 <h3>Problem 1</h3>
 <p><strong>A flexdashboard created using plotly is <a href="https://fionalav.github.io/p8105_hw6_xs2329_yz3306/">here</a>.</strong></p>
 <ul>
-<li><p>In <strong>Figure A</strong>, we analyzed the total number of orders in each department and presented the most popular products in each department during a week.</p></li>
-<li><p>In <strong>Figure B</strong>, we analyzed the hour of the day on which the order was placed in each department. From the box plot, we observed that the medians across the 4 departments are all within 10-15 hours during the day.</p></li>
+<li><p>In <strong>Figure A</strong>, we analyzed the total number of orders in each department and presented the most popular products in each department during a week. The bar graph is ordered by the number of orders with distinct colors indicating on which day of the week that item was ordered.</p></li>
+<li><p>In <strong>Figure B</strong>, we analyzed the hour of the day on which the order was placed in each department. From the box plot, we observed a consistant pattern that the medians across the 4 departments are all within 10-15 hours during the day, and all are skewed to the left.</p></li>
 <li><p>In <strong>Figure C</strong>, we further analyzed the nubmer of orders placed in each department during the week. We obeserve that the number of orders for the 4 departments remain a consistant pattern regardless of the day of the week.</p></li>
 </ul>
 <p>We will take a closer look for variables within each department using shiny.</p>
 </div>
 <div id="problem-2" class="section level3">
 <h3>Problem 2</h3>
-<p>A shiny-enabled dashboard created using Shiny is <a href="https://fionalav.shinyapps.io/hw6_shiny/">here</a>.</p>
+<p><strong>A shiny-enabled dashboard created using Shiny is <a href="https://fionalav.shinyapps.io/hw6_shiny/">here</a>.</strong></p>
 <ul>
-<li><p>In graph A, we updated the graph A in problem 1. We added the selectorInput Widget in the sidebar for <code>Day of week</code> Variable. In this case, we can visualize the most popular item from each department on each day of week, by selecting in the day of week widget. For instance, on Sunday, the most popular product in bakery department is “100% Whole Wheat Bread”, while in Monday, the most popular product in Bakery department is “Whole Wheat Bread”.</p></li>
-<li><p>In graph B, we updated the graph B in problem 1. We added the RadioButton Widget in the sidebar for <code>Department</code> Variable. In this case, we can visualize the hour of the day the order was placed on each aisle within its own department, by selecting individual department in the sidebar widget. For instance, in Department “Produce”, there are six aisles involved. We can visualize each aisle’s respective distribution of ordering hour of day.</p></li>
-<li><p>In graph C, we updated the graph C in problem 1. We also used the RadioButton Widget in the sidebar for <code>Department</code> Variable. In this case, we can visualize the trend of number of products ordered over the week for each department, by selecting individual department in the sidebar widget. For instance, in Department “Bakery”, orders are placed the most on Sunday. The number of orders decreases to the lowest(5346) on Wednesday and increases back to highest(7233) on Sunday.</p></li>
+<li><p>In <strong>graph A</strong>, we updated the graph A in problem 1. We added the selectorInput Widget in the sidebar for <code>Day of week</code> Variable. In this case, we can visualize the most popular item from each department on each day of week, by selecting in the day of week widget. For instance, on Sunday, the most popular product in bakery department is “100% Whole Wheat Bread”, while in Monday, the most popular product in Bakery department is “Whole Wheat Bread”.</p></li>
+<li><p>In <strong>graph B</strong>, we updated the graph B in problem 1. We added the RadioButton Widget in the sidebar for <code>Department</code> Variable. In this case, we can visualize the hour of the day the order was placed on each aisle within its own department, by selecting individual department in the sidebar widget. For instance, in Department “Produce”, there are six aisles involved. We can visualize each aisle’s respective distribution of ordering hour of day.</p></li>
+<li><p>In <strong>graph C</strong>, we updated the graph C in problem 1. We also used the RadioButton Widget in the sidebar for <code>Department</code> Variable. In this case, we can visualize the trend of number of products ordered over the week for each department, by selecting individual department in the sidebar widget. For instance, in Department “Bakery”, orders are placed the most on Sunday. The number of orders decreases to the lowest(5346) on Wednesday and increases back to highest(7233) on Sunday.</p></li>
 </ul>
 </div>
 <div id="note" class="section level3">
